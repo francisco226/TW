@@ -1,0 +1,127 @@
+/* Reset e Fonte Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #fad496; 
+    color: #3e2a1b; 
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #a37143; 
+    color: #f4ede2;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 120px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 10px 0 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0; 
+}
+
+nav ul a {
+    color: #f4ede2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+    color: #e0cbb6;
+}
+
+/* Seção de Login */
+.login-section {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f4ede2;
+    border: 2px solid #d4b59e;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-section h1 {
+    font-size: 1.8em;
+    color: #5a4633;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    color: #5a4633;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d4b59e;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group input:focus {
+    border-color: #a37e5c;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(163, 126, 92, 0.5);
+}
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #a37e5c; 
+    color: #f4ede2;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #5a4633;
+}
+
+.link-voltar {
+    margin-top: 15px;
+}
+
+.link-voltar a {
+    color: #5a4633;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.link-voltar a:hover {
+    color: #3e2a1b;
+}
