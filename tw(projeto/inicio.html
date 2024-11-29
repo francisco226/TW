@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sessão - Adidas</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Biblioteca Online </h1>
+        <nav>
+            <ul>
+                <li><a href="./inicio.html">login</a></li>
+                <li><a href="./index.html">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulário de Login -->
+    <section class="login-section">
+        <h1>Iniciar Sessão</h1>
+        <form onsubmit="return redirecionar();">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Palavra Passe:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua palavra passe" required>
+            </div>
+            <button type="submit" class="botao">Iniciar Sessão</button>
+        </form>
+        <p class="link-voltar"><a href="login.html">Voltar para Página Inicial</a></p>
+    </section>
+</body>
+</html>
